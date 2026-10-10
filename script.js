@@ -46,7 +46,7 @@ function addNumber(number) {
 // انتخاب عملیات ریاضی
 
 function chooseOperator(selectedOperator) {
-   if (operator !== null && !waitingForSecondNumber) {
+    if (operator !== null && !waitingForSecondNumber) {
     calculate();
 }
     firstNumber = Number(currentNumber);
